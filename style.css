@@ -1,0 +1,66 @@
+body
+{
+	background-color: black;
+}
+
+a
+{
+	color: #7EBDC3;
+}
+
+.container 
+{
+	display: flex;
+}
+
+.leftPane {
+	color: #bab079;
+	width: 25.5%;
+	height: 100hv;
+	background-color: #003049;
+}
+
+.centerLine 
+{
+	width: .5%;
+	height: 100hv;
+	background-color: black;
+}
+
+.rightPane 
+{
+	left: 100px;
+	width: 74%;
+	height: 100hv;
+	background-color: #82846D;
+}
+
+h2
+{
+	text-align: center;
+}
+
+p
+{
+	padding-left: 10px;
+}
+
+.pPadding
+{
+	padding-left: 10px;
+}
+
+img
+{
+	padding-top: 20px;
+}
+
+hr
+{
+	height: 2px;
+}
+
+progress
+{
+	padding-left: 100%;
+}
