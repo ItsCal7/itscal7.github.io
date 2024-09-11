@@ -1,11 +1,30 @@
 body
 {
-	background-color: black;
+	background-color: #003049;
 }
 
 a
 {
 	color: #7EBDC3;
+}
+
+.nav
+{
+	display: inline-block;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 7px;
+	color: #82846D;
+}
+
+.nav:hover
+{
+	text-decoration: dotted underline;
+}
+
+.chain
+{
+	border-right: 1px solid #82846D;
 }
 
 .container 
@@ -15,24 +34,18 @@ a
 
 .leftPane {
 	color: #bab079;
-	width: 25.5%;
-	height: 100hv;
+	width: 26%;
+	height: 100%;
 	background-color: #003049;
-}
-
-.centerLine 
-{
-	width: .5%;
-	height: 100hv;
-	background-color: black;
 }
 
 .rightPane 
 {
 	left: 100px;
 	width: 74%;
-	height: 100hv;
+	height: 100%;
 	background-color: #82846D;
+	border-radius: 25px;
 }
 
 h2
@@ -53,14 +66,12 @@ p
 img
 {
 	padding-top: 20px;
+	border-radius: 10px;
 }
 
 hr
 {
-	height: 2px;
-}
-
-progress
-{
-	padding-left: 100%;
+	border: 2px solid #82846D;
+	border-radius: 2px;
+	width: 100%;
 }
